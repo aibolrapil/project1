@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  max-width: 100%;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 2;
+}   
+.header{
+  margin-top: 35px;
+  display:inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+.header a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 14px 16px;
+transition: 0.5s;
+}
+.header a:hover{
+  color: #208fe9;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.logo{
+  display: flex;
+    width: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 90px;
+    z-index: 1;
+}
+
+.regest{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.regest a{
+  text-decoration: none;
+  color: #208fe9;
+  font-size: 20px;
+  z-index: 1;
+}
+
+
+
+h2 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #00abfb;
+  color: white;
+}
+.event:hover{
+  background: rgba(234, 58, 14, 0.3);
+  transition: 0.5s;
+  color: white;
+}
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.register-button {
+  background-color: #0064fb;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.register-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #00ddfb;
+  transition: 0.5s;
+}
+.banner{
+  display: grid;
+  background-image: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 30s infinite;
+}
+.slider{
+  animation: anime 2s;
+}
+.overlay{
+  width: 100%;
+  height: 113.4vh;
+  background: linear-gradient(rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7));
+  position: absolute;
+  top: 0;
+}
+.navbar{
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  z-index: 1;
+}
+.text{
+  font-size: 80px;
+  color: white;
+}
